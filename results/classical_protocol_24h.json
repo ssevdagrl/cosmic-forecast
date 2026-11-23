@@ -1,0 +1,16 @@
+{
+  "split_seed": 42,
+  "lookback_bins": 12,
+  "horizon_bins": 4,
+  "ridge_alpha_candidates": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "best_ridge_alpha": 0.01,
+  "ridge_validation_normalized_MSE": 1.1861172714677761,
+  "selection_rule": "Ridge alpha selected on validation, never test"
+}

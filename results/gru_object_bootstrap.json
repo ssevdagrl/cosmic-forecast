@@ -1,0 +1,13 @@
+{
+  "n_test_supernovae": 47,
+  "n_test_windows": 2393,
+  "objects_GRU_better": 41,
+  "objects_GRU_worse": 6,
+  "equal_object_weight_average_MAE_advantage_baseline_minus_GRU": 0.1907119332475865,
+  "approx_95pct_bootstrap_CI_object_level_MAE_advantage": [
+    0.09869568700644565,
+    0.2871398777800037
+  ],
+  "note": "Bootstrap CI is approximate; one seed and one split are not sufficient to claim publication-grade significance.",
+  "evaluation_scope": "Any complete 72h history -> next 24h window, not specifically explosion onset."
+}

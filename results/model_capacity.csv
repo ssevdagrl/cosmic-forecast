@@ -1,0 +1,5 @@
+model,trainable_parameters,checkpoint_size_KB,latency_batch1_ms,latency_batch128_ms,latency_per_window_batch128_ms
+GRU_24h,3492,16.61,0.3459,0.954,0.007454
+CNN_24h,26532,107.03,0.0876,0.6164,0.004816
+GRU_48h,3624,17.03,0.3268,1.0844,0.008472
+CNN_48h,26792,108.03,0.0917,0.698,0.005453

@@ -1,0 +1,24 @@
+{
+  "split_seed": 42,
+  "model_init_seed": 42,
+  "lookback_bins": 12,
+  "bin_duration_h": 6,
+  "quality_measure": "Median of 12 historical bins' median e_CRate",
+  "group_thresholds": {
+    "24h": {
+      "low": 1.0026833333333334,
+      "high": 3.9842
+    },
+    "48h": {
+      "low": 1.0139999999999998,
+      "high": 4.010249999999999
+    }
+  },
+  "thresholds_fit_on": "Training windows only, separately per horizon",
+  "limitations": [
+    "The bin median uncertainty is a quality proxy.",
+    "It is not the propagated uncertainty of the flux median.",
+    "One supernova may contribute to several quality groups.",
+    "The groups do not describe physical explosion stages."
+  ]
+}

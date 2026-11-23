@@ -1,0 +1,22 @@
+{
+  "task": "cnn48",
+  "architecture": "CNN",
+  "lookback_bins": 12,
+  "horizon_bins": 8,
+  "bin_width_hours": 6,
+  "seed": 42,
+  "max_per_object": 60,
+  "n_train_windows": 9740,
+  "n_val_windows": 2079,
+  "n_test_windows": 2113,
+  "n_train_supernova": 214,
+  "n_val_supernova": 45,
+  "n_test_supernova": 47,
+  "best_epoch": 2,
+  "best_val_normalized_MSE": 1.3520059106497881,
+  "epochs_requested": 20,
+  "patience": 5,
+  "learning_rate": 0.001,
+  "batch_size": 128,
+  "note": "Test-set not inspected for hyperparameter selection; split by SN Name."
+}

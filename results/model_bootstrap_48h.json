@@ -1,0 +1,37 @@
+{
+  "scope": "48h",
+  "n_independent_test_objects": 47,
+  "method": "Paired cluster bootstrap, resampling supernova names (n=3000)",
+  "comparisons": [
+    {
+      "A_minus_B": "Baseline - GRU",
+      "mean_MAE_advantage_counts_per_s": 0.35316781224088467,
+      "n_objects_B_better": 43,
+      "n_objects_A_better": 4,
+      "CI_95pct": [
+        0.19650297540616482,
+        0.5396539770463046
+      ]
+    },
+    {
+      "A_minus_B": "Baseline - CNN",
+      "mean_MAE_advantage_counts_per_s": 0.31982390360629304,
+      "n_objects_B_better": 43,
+      "n_objects_A_better": 4,
+      "CI_95pct": [
+        0.1597268739675588,
+        0.5102754357647389
+      ]
+    },
+    {
+      "A_minus_B": "CNN - GRU",
+      "mean_MAE_advantage_counts_per_s": 0.03334390863459161,
+      "n_objects_B_better": 25,
+      "n_objects_A_better": 22,
+      "CI_95pct": [
+        0.010691701097691313,
+        0.0641194018594762
+      ]
+    }
+  ]
+}

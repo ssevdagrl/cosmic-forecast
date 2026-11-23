@@ -1,0 +1,11 @@
+{
+  "python_version": "3.13.9 (tags/v3.13.9:8183fa5, Oct 14 2025, 14:09:13) [MSC v.1944 64 bit (AMD64)]",
+  "pytorch_version": "2.15.0+cpu",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "device": "CPU",
+  "torch_num_threads": 1,
+  "benchmark_repetitions": 200,
+  "benchmark_warmup": 30,
+  "note": "Only inference latency is measured. Training duration is not measured."
+}

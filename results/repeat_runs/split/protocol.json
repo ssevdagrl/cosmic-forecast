@@ -1,0 +1,22 @@
+{
+  "mode": "split",
+  "seeds": [
+    21,
+    22,
+    23
+  ],
+  "models": [
+    "gru24",
+    "cnn24",
+    "gru48",
+    "cnn48"
+  ],
+  "base_split_seed": 42,
+  "base_init_seed": 42,
+  "epochs_max": 20,
+  "patience": 5,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "torch_version": "2.15.0+cpu",
+  "test_selection": "Only once after validation-based checkpoint selection"
+}

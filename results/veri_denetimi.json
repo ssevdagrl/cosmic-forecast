@@ -1,0 +1,21 @@
+{
+  "n_rows": 680384,
+  "n_supernova": 307,
+  "median_observation_days": 25.6,
+  "lookback_72h_future_24h": {
+    "n_windows": 15688,
+    "n_independent_supernova": 306
+  },
+  "lookback_72h_future_48h": {
+    "n_windows": 13932,
+    "n_independent_supernova": 306
+  },
+  "lookback_120h_future_24h": {
+    "n_windows": 11894,
+    "n_independent_supernova": 301
+  },
+  "lookback_120h_future_48h": {
+    "n_windows": 9847,
+    "n_independent_supernova": 294
+  }
+}
